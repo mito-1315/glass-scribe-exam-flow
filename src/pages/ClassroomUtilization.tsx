@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import GlassCard from "@/components/GlassCard";
 import { Button } from "@/components/ui/button";
@@ -81,9 +80,9 @@ const ClassroomUtilization = () => {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="all">All Capacities</SelectItem>
-                    <SelectItem value="small">Small (< 50)</SelectItem>
+                    <SelectItem value="small">Small (less than 50)</SelectItem>
                     <SelectItem value="medium">Medium (50-100)</SelectItem>
-                    <SelectItem value="large">Large (> 100)</SelectItem>
+                    <SelectItem value="large">Large (more than 100)</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
